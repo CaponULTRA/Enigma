@@ -14,24 +14,26 @@ public class Enigma {
         this.plugBord = new PlugBord(plugBord);
         this.reflector = new Reflector(reflector);
     }
+
     public String crypt(String input){
-        char[] work= input.toCharArray();
+        char[] work = input.toCharArray();
         for (int i = 0;i<work.length;i++){
             work[i] = plugBord.change(work[i]);
-            for (int j = 0; i < rotorCount;i++){
-                work[i] = rotor[j].change(work[i]);
+            for (int j = 0; j < rotorCount;j++){
+                work[i] = rotor[0].change(work[i],true);
             }
             work[i] = reflector.change(work[i]);
             for (int j = rotorCount-1; j == 0;j--){
-                work[i] = rotor[j].change(work[i]);
+                work[i] = rotor[0].change(work[i],false);
             }
             work[i] = plugBord.change(work[i]);
-            rotor[0].rotate();
+
             int num;
             num = 0;
+            rotor[num].rotate();
             while (rotor[num].rotateOther() && num < rotorCount-1){
                 rotor[num + 1].rotate();
-            }
+           }
         }
         return Arrays.toString(work);
     }

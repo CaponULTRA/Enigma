@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92624473-2088-4f73-b460-264aee5cc8f3" name="Changes" comment="useing&#10;seed">
-      <change afterPath="$PROJECT_DIR$/src/tester.java" afterDir="false" />
+    <list default="true" id="92624473-2088-4f73-b460-264aee5cc8f3" name="Changes" comment="Ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enigma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enigma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,8 @@
       <workItem from="1670796323267" duration="1651000" />
       <workItem from="1670798216425" duration="3381000" />
       <workItem from="1670862725343" duration="3882000" />
-      <workItem from="1670964448164" duration="5626000" />
+      <workItem from="1670964448164" duration="7682000" />
+      <workItem from="1671000016191" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Reflector complete&#10;Rotor progress">
       <created>1670454594075</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670698676581</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ready">
+      <created>1670973230758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670973230758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +151,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Reflector complete&#10;Rotor progress" />
     <MESSAGE value="useing&#10;seed" />
-    <option name="LAST_COMMIT_MESSAGE" value="useing&#10;seed" />
+    <MESSAGE value="Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tester.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

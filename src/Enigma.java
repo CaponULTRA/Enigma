@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Enigma {
      int rotorCount;
      Rotor [] rotor;
-     PlugBord plugBord;
+     PlugBoard plugBord;
      Reflector reflector;
     public Enigma(int rotorCount, int[] rotor, char[] setting, char []tackTheOther, String plugBord, char reflector ){
         this.rotorCount = rotorCount;
@@ -11,7 +11,7 @@ public class Enigma {
         for (int i = 0; i < rotorCount; i++){
             this.rotor[i] = new Rotor(rotor[i],setting[i],tackTheOther[i]);
         }
-        this.plugBord = new PlugBord(plugBord);
+        this.plugBord = new PlugBoard(plugBord);
         this.reflector = new Reflector(reflector);
     }
 

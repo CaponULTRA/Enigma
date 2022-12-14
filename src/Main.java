@@ -23,9 +23,9 @@ public class Main {
         }
         System.out.println("the reflector is? there are historical reflectors A and B");
         char reflektor = scanner.next().toUpperCase().charAt(0);
-        System.out.println("hte Plug bord alphabet is?");
-        String plugboard = scanner.next().toUpperCase();
-        Enigma enigma = new Enigma(rotorCount, rotor,pos,turn,plugboard,reflektor);
+        System.out.println("the Plug board alphabet is?");
+        String plugBoard = scanner.next().toUpperCase();
+        Enigma enigma = new Enigma(rotorCount, rotor,pos,turn,plugBoard,reflektor);
         System.out.println("The massage");
         String massage = scanner.next().toUpperCase();
         System.out.println(enigma.crypt(massage));

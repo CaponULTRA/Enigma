@@ -1,6 +1,6 @@
-public class PlugBord {
+public class PlugBoard {
     char [] exchange;
-    public PlugBord(String exchange){
+    public PlugBoard(String exchange){
        this.exchange = exchange.toCharArray();
     }
     public char change(char input) {
